@@ -15,7 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.quotes.presentation.theme.QuotesTheme
-import com.example.quotes.presentation.ui.screens.AddQuoteScreen
+import com.example.quotes.presentation.ui.screens.ListQuoteScreen
 import com.example.quotes.presentation.viewmodel.QuoteViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -33,13 +33,14 @@ class MainActivity : ComponentActivity() {
                         .padding(8.dp)
                     ) {
                     val viewModel: QuoteViewModel = hiltViewModel()
-                    /*
+
                     ListQuoteScreen(quotes = viewModel.uiState,
                         listQuotesOnClick = {
                             viewModel.getQuotes()
-                        }) */
+                        })
+                    /*
                     AddQuoteScreen(viewModel, context = this.applicationContext)
-
+*/
                 }
             }
         }

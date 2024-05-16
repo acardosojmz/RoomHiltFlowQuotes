@@ -28,7 +28,8 @@ import com.example.quotes.presentation.viewmodel.QuoteViewModel
 
 
 @Composable
-fun AddQuoteScreen(viewModel: QuoteViewModel, context: Context) {
+fun AddQuoteScreen(viewModel: QuoteViewModel,
+                   context: Context) {
     val quoteModel by viewModel.quoteModel.collectAsState()
 
     Card(
