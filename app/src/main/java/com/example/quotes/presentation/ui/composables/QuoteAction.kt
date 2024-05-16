@@ -14,8 +14,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
-import com.example.quotes.domain.model.Routes
-import com.example.quotes.presentation.ui.screens.AddQuoteScreen
 
 @Composable
 fun QuoteAction(fontSize: TextUnit, text: String, align: TextAlign,

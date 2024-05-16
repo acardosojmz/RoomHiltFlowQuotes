@@ -14,7 +14,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.quotes.domain.model.QuoteModel
 import com.example.quotes.presentation.theme.QuotesTheme
 import com.example.quotes.presentation.ui.screens.AddQuoteScreen
 import com.example.quotes.presentation.viewmodel.QuoteViewModel

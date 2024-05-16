@@ -4,7 +4,7 @@ import com.example.quotes.data.local.entities.QuoteEntity
 import com.example.quotes.domain.model.QuoteModel
 
 fun QuoteEntity.toQuoteModel() = QuoteModel(
-    id=id,
+    id = id,
     quote = quote,
     author = author,
 )

@@ -120,17 +120,17 @@ abstract class QuoteDB : RoomDatabase() {
                     quote = "Hablar es fácil. Muéstrame el código.",
                     author = "Linus Torvalds"),
                 QuoteModel(
-                    id=11,
+                    id=10,
                     quote = """Enseñar a los niños el uso de software libre en las escuelas, 
                     |formará individuos con sentido de libertad""".trimMargin(),
                     author = "Richard Stallman"
                 ),
                 QuoteModel(
-                    id=12,
+                    id=11,
                     quote = "El mejor lugar para estudiar es el ITVO",
                     author = "Academia de Informatica y Tics"),
                 QuoteModel(
-                    id=13,
+                    id=12,
                     quote = "El respeto al derecho ajeno es la paz",
                     author = "Benito Juárez García")
             )
